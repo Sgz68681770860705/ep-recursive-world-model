@@ -56,7 +56,9 @@ Boundary momentum-flux interactions
 Effective fields and slow modes
         ↓
 Recursive higher-level structures
-Current Status
+```
+## Current Status
+
 
 This project is at an early research stage.
 
@@ -72,7 +74,9 @@ It does not yet provide a complete bottom-up derivation of known physics, quantu
 
 The purpose of opening this project is not to announce a completed theory, but to make the model testable, computable, criticizable, reproducible, and collectively developed.
 
-How You Can Contribute
+## How You Can Contribute
+
+
 
 Contributors are welcome to:
 
@@ -91,7 +95,9 @@ You do not need to believe the model in advance.
 
 A rigorous counterexample can be as valuable as a successful derivation.
 
-Scientific Principles
+## Scientific Principles
+
+
 
 Every important claim should be clearly classified as one of the following:
 
@@ -106,7 +112,9 @@ Open problem — unresolved.
 
 We aim to preserve imagination without confusing possibility with proof.
 
-Long-Term Goal
+## Long-Term Goal
+
+
 
 Our long-term goal is to explore a generative form of axiomatic physics:
 
@@ -116,6 +124,6 @@ We invite anyone interested to investigate one central question:
 
 Can a world driven by local collisions, capable of forming stable phase-transition structures and recursively evolving into higher-level objects, generate the physical reality we observe?
 
-License
+## License
 
 The repository is currently released under the Apache License 2.0.
