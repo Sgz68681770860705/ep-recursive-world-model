@@ -1,0 +1,45 @@
+{
+  "parameters": {
+    "a": 0.8,
+    "c_b": 1.5,
+    "g": 1.0,
+    "gamma": 0.5377756276525182,
+    "omega_c": 1.875
+  },
+  "T1": {
+    "maximum_relative_spectral_error": 5.447871275785707e-15
+  },
+  "T2": {
+    "m0_fitted_exponent": 0.9994274277987495,
+    "m1_fitted_exponent": 2.9994274277987505,
+    "m0_expected_exponent": 1.0,
+    "m1_expected_exponent": 3.0
+  },
+  "T3": {
+    "kernel_relative_L2_error": 1.5552497634892784e-16
+  },
+  "T4": {
+    "noise_fraction": 0.002,
+    "gamma_true": 0.5377756276525182,
+    "gamma_fit": 0.5376558349745968,
+    "a_true": 0.8,
+    "a_fit": 0.8000002002630209,
+    "a_relative_error": 2.5032877604136416e-07,
+    "g_true": 1.0,
+    "g_fit": 0.9998882404104539,
+    "g_relative_error": 0.0001117595895461232
+  },
+  "T5": {
+    "reversal_configuration_error": 3.300212001374611e-15,
+    "reversal_velocity_error": 6.496288129721261e-15,
+    "relative_energy_drift": 4.35856367355569e-15,
+    "minimum_stiffness_eigenvalue": 0.0011041253668597837
+  },
+  "gapped_channel_check": {
+    "omega_gap": 1.125,
+    "probe_below_gap": 0.9,
+    "spectral_density_below_gap": 0.0,
+    "probe_above_gap": 1.3499999999999999,
+    "spectral_density_above_gap": 0.34252141586522405
+  }
+}

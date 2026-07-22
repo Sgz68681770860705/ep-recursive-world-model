@@ -1,0 +1,17 @@
+{
+  "project": "EP-R0.2 local background spectral density",
+  "version": "0.1",
+  "primary_gates": {
+    "T1_max_relative_spectral_error": 1e-08,
+    "T2_monopole_exponent_absolute_error": 0.02,
+    "T2_derivative_exponent_absolute_error": 0.05,
+    "T3_kernel_relative_L2_error": 1e-05,
+    "T4_a_relative_error": 0.01,
+    "T4_g_relative_error": 0.01,
+    "T5_reversal_configuration_error": 1e-10,
+    "T5_reversal_velocity_error": 1e-10,
+    "T5_relative_energy_drift": 1e-10
+  },
+  "scope": "3D local linear background field, Gaussian finite source, gapless and gapped dispersion tests",
+  "failure_rule": "Failure rejects the current local-field realization, not the full EP program."
+}
