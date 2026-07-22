@@ -1,0 +1,43 @@
+{
+  "T1": {
+    "reversal_configuration_error": 2.0635491031210192e-15,
+    "reversal_velocity_error": 3.8135784432224587e-14,
+    "relative_energy_drift": 1.0793816041566925e-13,
+    "minimum_hamiltonian_eigenvalue": 0.016709989541938156
+  },
+  "T2": {
+    "kernel_relative_L2_error": 0.005075713734766244,
+    "kernel_max_absolute_error": 0.1002205086655037,
+    "tested_time_window": [
+      0.0,
+      2.0
+    ]
+  },
+  "T3": {
+    "minimum_real_eta_on_test_grid": 0.5007840772014475,
+    "eta_0_0": 1.6,
+    "eta_infinity_plus_delta_eta": 1.6
+  },
+  "T4": {
+    "noise_fraction": 0.003,
+    "true_parameters": {
+      "eta_infinity": 0.35,
+      "delta_eta": 1.25,
+      "tau": 0.45,
+      "xi": 0.7
+    },
+    "fitted_parameters": {
+      "eta_infinity": 0.35031899329667315,
+      "delta_eta": 1.2499115030660015,
+      "tau": 0.4504051982449291,
+      "xi": 0.7004687964112559
+    },
+    "relative_errors": {
+      "eta_infinity": 0.0009114094190662163,
+      "delta_eta": 7.07975471987865e-05,
+      "tau": 0.0009004405442868278,
+      "xi": 0.0006697091589370961
+    },
+    "normalized_residual_rms": 0.001963722248417637
+  }
+}

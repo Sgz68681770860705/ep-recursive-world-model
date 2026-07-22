@@ -1,0 +1,14 @@
+{
+  "project": "EP-R0.1 reversible background response and generalized viscosity",
+  "version": "0.1",
+  "primary_gates": {
+    "T1_reversal_configuration_error_max": 1e-10,
+    "T1_reversal_velocity_error_max": 1e-10,
+    "T1_relative_energy_drift_max": 1e-10,
+    "T2_kernel_relative_L2_error_max": 0.02,
+    "T3_min_real_eta": 0.0,
+    "T4_each_parameter_relative_error_max": 0.02
+  },
+  "model_scope": "single shear coordinate plus reversible harmonic bath; one-pole generalized viscosity",
+  "failure_interpretation": "A failed gate rejects the current minimal realization, not the full EP program."
+}
