@@ -1,0 +1,26 @@
+{
+  "project": "EP-R0.4 finite phase boundary collision ledger",
+  "version": "0.1",
+  "primary_gates": {
+    "T1_volume_relative_error_max": 1e-05,
+    "T1_centroid_error_max": 1e-05,
+    "T1_shape_moment_relative_error_max": 0.0001,
+    "T1_boundary_tensor_relative_error_max": 1e-08,
+    "T2_force_relative_error_max": 1e-06,
+    "T2_torque_relative_error_max": 1e-06,
+    "T3_rotation_invariance_relative_error_max": 1e-12,
+    "T3_angular_ledger_residual_max": 1e-10,
+    "T4_stress_couple_residual_max": 1e-10,
+    "T5_relative_energy_drift_max": 1e-09,
+    "T5_linear_momentum_drift_max": 1e-10,
+    "T5_angular_momentum_drift_max": 1e-09,
+    "T5_time_reversal_state_error_max": 1e-09,
+    "T6_centered_circle_torque_max": 1e-10,
+    "T6_offcenter_spin_transfer_min": 0.01,
+    "T7_final_overlap_max": 1e-06,
+    "T7_final_radial_velocity_min": 0.0
+  },
+  "scope": "2D Gaussian finite phase boundaries with planar quaternion subgroup and Hamiltonian overlap interaction",
+  "failure_rule": "Failure rejects the current Gaussian-boundary realization, not the full EP program.",
+  "topology_note": "Fusion and reconstruction are not preregistered as passed gates because the model retains two labels."
+}

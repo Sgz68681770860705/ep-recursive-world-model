@@ -1,0 +1,44 @@
+{
+  "T1_geometry": {
+    "volume_relative_error": 1.4746763804090066e-08,
+    "centroid_error": 7.390236724072497e-08,
+    "shape_moment_relative_error": 4.4941853834767394e-07,
+    "boundary_tensor_relative_error": 6.300078851340387e-14,
+    "circle_anisotropy_factor": 1.5720813286065225e-16,
+    "ellipse_anisotropy_factor": 0.6000000000000001
+  },
+  "T2_gradients": {
+    "maximum_force_relative_error": 4.20899841459468e-10,
+    "maximum_torque_relative_error": 1.7499103919078516e-08
+  },
+  "T3_euclidean_ledger": {
+    "maximum_rotation_invariance_relative_error": 5.386114400073743e-15,
+    "maximum_angular_ledger_residual": 6.8833827526759706e-15,
+    "number_of_random_tests": 1000
+  },
+  "T4_stress_couple": {
+    "maximum_stress_couple_residual": 7.105427357601002e-15,
+    "control_volume": 2.7
+  },
+  "T5_hamilton_collision": {
+    "relative_energy_drift": 2.8059440659164258e-14,
+    "linear_momentum_drift": 2.2247786310271853e-16,
+    "angular_momentum_drift": 3.2862601528904634e-14,
+    "time_reversal_state_error": 1.7413769893023155e-13
+  },
+  "T6_collision_type": {
+    "maximum_centered_circle_torque": 8.822631994225355e-16,
+    "offcenter_spin_transfer_amplitude": 0.6869807339820337,
+    "final_L1": 0.05778796289336602,
+    "final_L2": 0.2707005366706398
+  },
+  "T7_collision_interval": {
+    "collision_threshold": 0.001,
+    "maximum_normalized_overlap": 0.03604808538531217,
+    "collision_duration": 2.8,
+    "final_normalized_overlap": 1.111845417319713e-58,
+    "final_radial_velocity": 2.305481561296277,
+    "classification": "labeled_scattering",
+    "topology_reconstruction_status": "open_due_to_persistent_object_labels"
+  }
+}
