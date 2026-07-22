@@ -1,0 +1,9 @@
+validation_id,speed,phase_over_pi,impact_parameter,coarse_class,fine_class,coarse_sequence,fine_sequence,class_agreement
+1,0.35,0.0,0,persistent_fusion_candidate,persistent_fusion_candidate,2-1,2-1,True
+2,0.35,0.6666666666666666,0,two_component_scattering,two_component_scattering,2,2,True
+3,0.55,0.5,0,fusion_fission_scattering,fusion_fission_scattering,2-1-2,2-1-2,True
+4,1.15,0.5,0,fragmentation,fragmentation,2-1-2-1-2-3,2-1-2-3,True
+5,0.35,0.0,0.8,persistent_fusion_candidate,persistent_fusion_candidate,2-1,2-1,True
+6,0.75,0.5,0.8,fusion_fission_scattering,fusion_fission_scattering,2-1-2,2-1-2,True
+7,0.95,1.0,0.8,two_component_scattering,two_component_scattering,2,2,True
+8,0.55,0.3333333333333333,1.6,persistent_fusion_candidate,persistent_fusion_candidate,2-1,2-1,True

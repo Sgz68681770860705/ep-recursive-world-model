@@ -1,0 +1,125 @@
+{
+  "model": {
+    "equation": "i psi_t = -1/2 Delta psi - g |psi|^2 psi + h |psi|^4 psi",
+    "g": 2.0,
+    "h": 1.0,
+    "density_threshold": 0.2
+  },
+  "T1_unlabeled_scattering_map": {
+    "number_of_cases": 105,
+    "speeds": [
+      0.35,
+      0.55,
+      0.75,
+      0.95,
+      1.15
+    ],
+    "phases_over_pi": [
+      0.0,
+      0.16666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.6666666666666666,
+      0.8333333333333334,
+      1.0
+    ],
+    "impact_parameters": [
+      0.0,
+      0.8,
+      1.6
+    ],
+    "class_counts": {
+      "persistent_fusion_candidate": 33,
+      "two_component_scattering": 22,
+      "fusion_fission_scattering": 40,
+      "fragmentation": 10
+    },
+    "class_summary": {
+      "fragmentation": {
+        "count": 10,
+        "activity_duration_mean": 7.824,
+        "activity_duration_std": 0.2661327989306594,
+        "activity_impulse_mean": 125.33059289883792,
+        "activity_impulse_std": 14.785892544109654,
+        "equivalent_time_mean": 6.635527872614598,
+        "equivalent_time_std": 0.3022522049956993,
+        "peak_activity_mean": 18.934294011318144,
+        "peak_activity_std": 2.504448588396338
+      },
+      "fusion_fission_scattering": {
+        "count": 40,
+        "activity_duration_mean": 7.031999999999999,
+        "activity_duration_std": 0.728226507450701,
+        "activity_impulse_mean": 77.57419790195635,
+        "activity_impulse_std": 56.51705490642068,
+        "equivalent_time_mean": 4.899143007660571,
+        "equivalent_time_std": 1.3751586037145935,
+        "peak_activity_mean": 14.25525274523672,
+        "peak_activity_std": 7.589544349438002
+      },
+      "persistent_fusion_candidate": {
+        "count": 33,
+        "activity_duration_mean": 5.367272727272728,
+        "activity_duration_std": 1.2013931307217693,
+        "activity_impulse_mean": 31.91942277703591,
+        "activity_impulse_std": 33.230412396558386,
+        "equivalent_time_mean": 3.4823205369966495,
+        "equivalent_time_std": 1.4807402898672495,
+        "peak_activity_mean": 7.025793216421633,
+        "peak_activity_std": 5.487231832469545
+      },
+      "two_component_scattering": {
+        "count": 22,
+        "activity_duration_mean": 5.854545454545456,
+        "activity_duration_std": 1.4933271490286293,
+        "activity_impulse_mean": 22.52799868315879,
+        "activity_impulse_std": 22.237176744495724,
+        "equivalent_time_mean": 3.391102510480887,
+        "equivalent_time_std": 1.373476071570497,
+        "peak_activity_mean": 5.922110341962175,
+        "peak_activity_std": 3.9598759041671556
+      }
+    },
+    "map_gate_passed": true
+  },
+  "T2_resolution_robustness": {
+    "representative_cases": 8,
+    "classification_agreement_fraction": 1.0,
+    "robustness_gate_passed": true
+  },
+  "T3_conservation": {
+    "norm_relative_drift": 2.2513804356784916e-12,
+    "energy_relative_drift": 2.3660963466941937e-05,
+    "momentum_absolute_drift": 3.8146192690358234e-05,
+    "time_reversal_relative_L2_error": 4.441085199421663e-12,
+    "conservation_gate_passed": true,
+    "resolution": {
+      "n": 192,
+      "length": 50.0,
+      "dt": 0.003,
+      "final_time": 15.0
+    }
+  },
+  "T4_event_statistics": {
+    "equivalent_time_mean": 4.303255542705122,
+    "equivalent_time_std": 1.6798988530661119,
+    "equivalent_time_coefficient_of_variation": 0.39037859508805517,
+    "activity_threshold_fraction": 0.1,
+    "kernel_zero_frequency_area": 4.018815494839386
+  },
+  "T5_single_pole_closure": {
+    "fit_amplitude": 1.0105997631744685,
+    "fit_relaxation_time": 10.721966814436602,
+    "fit_r_squared": 0.8127534295162117,
+    "required_r_squared": 0.9,
+    "required_equivalent_time_cv_max": 0.3,
+    "single_pole_gate_passed": false,
+    "interpretation": "Failure requires class-conditioned or multi-timescale closure."
+  },
+  "formal_status": {
+    "scattering_map_gate_passed": true,
+    "resolution_robustness_gate_passed": true,
+    "conservation_gate_passed": true,
+    "single_pole_closure_gate_passed": false
+  }
+}
