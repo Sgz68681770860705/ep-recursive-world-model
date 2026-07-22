@@ -1,0 +1,80 @@
+{
+  "fusion_then_fission_initial": [
+    {
+      "superlevel_mass": 13.410519811636428,
+      "centroid_x": -5.990282301926942,
+      "centroid_y": 0.0,
+      "momentum_x": 10.728415857028665,
+      "momentum_y": -5.930875167874909e-17,
+      "orientation": 0.0,
+      "anisotropy": 0.006089351798650831,
+      "pixel_count": 179
+    },
+    {
+      "superlevel_mass": 13.410519811871252,
+      "centroid_x": 5.990282301946185,
+      "centroid_y": 0.0,
+      "momentum_x": -10.728415841777485,
+      "momentum_y": -1.775286170637366e-17,
+      "orientation": 0.0,
+      "anisotropy": 0.0060893516989948505,
+      "pixel_count": 179
+    }
+  ],
+  "fusion_then_fission_final": [
+    {
+      "superlevel_mass": 5.056128881961676,
+      "centroid_x": -9.235075404825132,
+      "centroid_y": -2.0093682567583083e-13,
+      "momentum_x": -4.734492123590818,
+      "momentum_y": -7.412069836208474e-09,
+      "orientation": 1.5707963267948606,
+      "anisotropy": 0.048776859549483666,
+      "pixel_count": 88
+    },
+    {
+      "superlevel_mass": 18.053318692524222,
+      "centroid_x": 3.064762110526378,
+      "centroid_y": -3.2193623969643977e-13,
+      "momentum_x": 5.609334550798025,
+      "momentum_y": 5.000951215639038e-09,
+      "orientation": 1.5707963267948946,
+      "anisotropy": 0.8108583831943217,
+      "pixel_count": 279
+    }
+  ],
+  "persistent_fusion_final": [
+    {
+      "superlevel_mass": 25.278426139641084,
+      "centroid_x": -8.579927167633278e-14,
+      "centroid_y": -3.180890381161152e-13,
+      "momentum_x": -1.1947109749307731e-06,
+      "momentum_y": -6.295722970728335e-09,
+      "orientation": 1.5707963267948961,
+      "anisotropy": 0.7741892857506908,
+      "pixel_count": 329
+    }
+  ],
+  "phase_blocked_final": [
+    {
+      "superlevel_mass": 12.278853443629567,
+      "centroid_x": -6.0282033782515585,
+      "centroid_y": -2.591591111450891e-13,
+      "momentum_x": -7.661089545271327,
+      "momentum_y": -3.4294319788477634e-07,
+      "orientation": 3.14159265358979,
+      "anisotropy": 0.33542202012782374,
+      "pixel_count": 148
+    },
+    {
+      "superlevel_mass": 12.278853443623955,
+      "centroid_x": 6.028203378251643,
+      "centroid_y": -2.5639007572302803e-13,
+      "momentum_x": 7.661089545267124,
+      "momentum_y": -3.429431923336612e-07,
+      "orientation": -3.1415926535897887,
+      "anisotropy": 0.3354220201279361,
+      "pixel_count": 148
+    }
+  ]
+}

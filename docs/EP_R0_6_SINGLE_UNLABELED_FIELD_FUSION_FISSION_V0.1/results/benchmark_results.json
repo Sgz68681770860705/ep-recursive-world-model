@@ -1,0 +1,241 @@
+{
+  "model": {
+    "equation": "i psi_t = -1/2 Delta psi - g |psi|^2 psi + h |psi|^4 psi",
+    "g": 2.0,
+    "h": 1.0,
+    "grid_n": 128,
+    "domain_length": 40.0,
+    "dt": 0.004,
+    "density_threshold": 0.2,
+    "minimum_component_pixels": 20
+  },
+  "T1_continuum_structure": {
+    "single_unlabeled_complex_field": true,
+    "hamiltonian": true,
+    "global_U1_norm_symmetry": true,
+    "translation_symmetry": true,
+    "rotation_symmetry": true,
+    "time_reversal_map": "psi(x,t) -> conjugate(psi(x,-t))"
+  },
+  "T2_numerical_conservation": {
+    "fusion_then_fission": {
+      "norm_relative_drift": 2.2514996446393975e-12,
+      "energy_relative_drift": 2.366096346764364e-05,
+      "momentum_absolute_drift": 3.8146192690358234e-05,
+      "angular_momentum_absolute_drift": 0.00371215841940097
+    },
+    "time_reversal_relative_L2_error": 1.1105069980497559e-12,
+    "offcenter_angular_test": {
+      "initial_angular_momentum": 11.920961819605685,
+      "angular_momentum_absolute_drift": 3.190010087550377e-05,
+      "angular_momentum_relative_drift": 2.6759670367402405e-06,
+      "norm_relative_drift": 6.535035236889489e-13,
+      "energy_relative_drift": 1.3581699829263048e-05,
+      "momentum_absolute_drift": 6.394627645618994e-09
+    }
+  },
+  "T3_topology_cases": {
+    "persistent_fusion_candidate": {
+      "topology_sequence": [
+        2,
+        1
+      ],
+      "initial_component_count": 2,
+      "minimum_component_count": 1,
+      "final_component_count": 1,
+      "one_component_duration": 7.3999999999999995,
+      "conservation": {
+        "norm_relative_drift": 5.445464053948346e-13,
+        "energy_relative_drift": 2.4027761569615785e-06,
+        "momentum_absolute_drift": 7.816512767653393e-09,
+        "angular_momentum_absolute_drift": 9.116313153991018e-13
+      },
+      "initial_components": [
+        {
+          "superlevel_mass": 13.410519808435154,
+          "centroid_x": -5.990282302440828,
+          "centroid_y": 5.174216960287174e-17,
+          "momentum_x": 5.36420792446659,
+          "momentum_y": 7.86317412136634e-18,
+          "orientation": 0.0,
+          "anisotropy": 0.006089351222911485,
+          "pixel_count": 179
+        },
+        {
+          "superlevel_mass": 13.410519808435156,
+          "centroid_x": 5.990282302440827,
+          "centroid_y": -5.1742169602871737e-17,
+          "momentum_x": -5.364207924466591,
+          "momentum_y": 1.1063649076725192e-16,
+          "orientation": 0.0,
+          "anisotropy": 0.006089351222911425,
+          "pixel_count": 179
+        }
+      ],
+      "final_components": [
+        {
+          "superlevel_mass": 25.278426139641084,
+          "centroid_x": -8.579927167633278e-14,
+          "centroid_y": -3.180890381161152e-13,
+          "momentum_x": -1.1947109749307731e-06,
+          "momentum_y": -6.295722970728335e-09,
+          "orientation": 1.5707963267948961,
+          "anisotropy": 0.7741892857506908,
+          "pixel_count": 329
+        }
+      ]
+    },
+    "fusion_then_fission": {
+      "topology_sequence": [
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "initial_component_count": 2,
+      "minimum_component_count": 1,
+      "final_component_count": 2,
+      "one_component_duration": 2.2,
+      "conservation": {
+        "norm_relative_drift": 4.812465751791839e-13,
+        "energy_relative_drift": 4.204841108357675e-05,
+        "momentum_absolute_drift": 0.00028339392427359733,
+        "angular_momentum_absolute_drift": 0.020037115212296133
+      },
+      "initial_components": [
+        {
+          "superlevel_mass": 13.410519811636428,
+          "centroid_x": -5.990282301926942,
+          "centroid_y": 0.0,
+          "momentum_x": 10.728415857028665,
+          "momentum_y": -5.930875167874909e-17,
+          "orientation": 0.0,
+          "anisotropy": 0.006089351798650831,
+          "pixel_count": 179
+        },
+        {
+          "superlevel_mass": 13.410519811871252,
+          "centroid_x": 5.990282301946185,
+          "centroid_y": 0.0,
+          "momentum_x": -10.728415841777485,
+          "momentum_y": -1.775286170637366e-17,
+          "orientation": 0.0,
+          "anisotropy": 0.0060893516989948505,
+          "pixel_count": 179
+        }
+      ],
+      "final_components": [
+        {
+          "superlevel_mass": 5.056128881961676,
+          "centroid_x": -9.235075404825132,
+          "centroid_y": -2.0093682567583083e-13,
+          "momentum_x": -4.734492123590818,
+          "momentum_y": -7.412069836208474e-09,
+          "orientation": 1.5707963267948606,
+          "anisotropy": 0.048776859549483666,
+          "pixel_count": 88
+        },
+        {
+          "superlevel_mass": 18.053318692524222,
+          "centroid_x": 3.064762110526378,
+          "centroid_y": -3.2193623969643977e-13,
+          "momentum_x": 5.609334550798025,
+          "momentum_y": 5.000951215639038e-09,
+          "orientation": 1.5707963267948946,
+          "anisotropy": 0.8108583831943217,
+          "pixel_count": 279
+        }
+      ]
+    },
+    "phase_blocked_crossing": {
+      "topology_sequence": [
+        2
+      ],
+      "initial_component_count": 2,
+      "minimum_component_count": 2,
+      "final_component_count": 2,
+      "one_component_duration": 0.0,
+      "conservation": {
+        "norm_relative_drift": 5.947335497251875e-13,
+        "energy_relative_drift": 4.3960589984608584e-05,
+        "momentum_absolute_drift": 4.243684426357664e-09,
+        "angular_momentum_absolute_drift": 3.389661867376656e-14
+      },
+      "initial_components": [
+        {
+          "superlevel_mass": 13.41051980867819,
+          "centroid_x": -5.990282302412323,
+          "centroid_y": -5.1742169601934034e-17,
+          "momentum_x": 10.728415849111975,
+          "momentum_y": 3.756534833164329e-18,
+          "orientation": 0.0,
+          "anisotropy": 0.00608935124333586,
+          "pixel_count": 179
+        },
+        {
+          "superlevel_mass": 13.41051980867819,
+          "centroid_x": 5.990282302412323,
+          "centroid_y": -5.1742169601934034e-17,
+          "momentum_x": -10.728415849111975,
+          "momentum_y": 1.459011737891607e-17,
+          "orientation": 0.0,
+          "anisotropy": 0.00608935124333586,
+          "pixel_count": 179
+        }
+      ],
+      "final_components": [
+        {
+          "superlevel_mass": 12.278853443629567,
+          "centroid_x": -6.0282033782515585,
+          "centroid_y": -2.591591111450891e-13,
+          "momentum_x": -7.661089545271327,
+          "momentum_y": -3.4294319788477634e-07,
+          "orientation": 3.14159265358979,
+          "anisotropy": 0.33542202012782374,
+          "pixel_count": 148
+        },
+        {
+          "superlevel_mass": 12.278853443623955,
+          "centroid_x": 6.028203378251643,
+          "centroid_y": -2.5639007572302803e-13,
+          "momentum_x": 7.661089545267124,
+          "momentum_y": -3.429431923336612e-07,
+          "orientation": -3.1415926535897887,
+          "anisotropy": 0.3354220201279361,
+          "pixel_count": 148
+        }
+      ]
+    }
+  },
+  "T4_unlabeled_reconstruction": {
+    "incoming_components": 2,
+    "single_component_interval_duration": 2.2,
+    "outgoing_components": 2,
+    "outgoing_superlevel_mass_ratio": 3.570581192447748,
+    "outgoing_component_momentum_difference": 10.343826674388843,
+    "component_label_continuation": "not canonically defined through the one-component interval",
+    "full_field_information_status": "retained by reversible field dynamics"
+  },
+  "T5_phase_sensitivity": {
+    "phase_0_slow_sequence": [
+      2,
+      1
+    ],
+    "phase_pi_over_2_sequence": [
+      2,
+      1,
+      2,
+      1,
+      2
+    ],
+    "phase_pi_sequence": [
+      2
+    ],
+    "interpretation": "topology depends on relative field phase and impact speed in the tested window"
+  },
+  "T6_linear_control": {
+    "linear_superposition_relative_error": 4.665032578302816e-16,
+    "interpretation": "the linear field is exactly the sum of separately evolved packets, unlike the nonlinear topology-changing cases"
+  }
+}

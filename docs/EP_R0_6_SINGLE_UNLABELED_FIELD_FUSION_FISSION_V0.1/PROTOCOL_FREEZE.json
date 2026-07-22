@@ -1,0 +1,28 @@
+{
+  "project": "EP-R0.6 single unlabeled phase-field fusion-fission dynamics",
+  "version": "0.1",
+  "status": "retrospective protocol freeze after exploratory selection of field parameters, phases, speeds, grid, and topology threshold",
+  "frozen_model": {
+    "equation": "i psi_t = -1/2 Delta psi - g |psi|^2 psi + h |psi|^4 psi",
+    "g": 2.0,
+    "h": 1.0,
+    "grid_n": 128,
+    "domain_length": 40.0,
+    "dt": 0.004,
+    "density_threshold": 0.2,
+    "minimum_component_pixels": 20
+  },
+  "gates": {
+    "norm_conservation": true,
+    "energy_conservation": true,
+    "momentum_conservation": true,
+    "time_reversal": true,
+    "angular_ledger": true,
+    "persistent_fusion_candidate": true,
+    "fusion_then_fission": true,
+    "phase_blocked_control": true,
+    "linear_superposition": true
+  },
+  "all_gates_passed": true,
+  "confirmatory_boundary": "The package is reproducible but exploratory. It is not an independent confirmatory test."
+}
