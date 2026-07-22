@@ -1,0 +1,46 @@
+{
+  "project": "EP-R0.5 deformable phase boundary, compression memory, and fusion diagnostics",
+  "version": "0.1",
+  "status": "retrospective protocol freeze after exploratory threshold calibration; not an independent confirmatory preregistration",
+  "frozen_parameters": {
+    "shape_mass": 0.16,
+    "shape_stiffness": 18.0,
+    "area_penalty": 36.0,
+    "overlap_strength": 16.0,
+    "collision_overlap_threshold": 0.001,
+    "memory_fraction_threshold": 0.005,
+    "unlabeled_union_threshold": 0.1
+  },
+  "gates": {
+    "minimum_axis": "> 0",
+    "beta_gradient_relative_error_max": 1e-05,
+    "relative_energy_drift_max": 1e-08,
+    "linear_momentum_drift_max": 1e-09,
+    "angular_momentum_drift_max": 1e-08,
+    "time_reversal_state_error_max": 1e-07,
+    "maximum_shape_energy_min": 0.001,
+    "maximum_spin_transfer_min": 0.001,
+    "compression_memory_duration_min": 0.2,
+    "fast_slow_peak_force_ratio_min": 1.05,
+    "fast_slow_shape_energy_ratio_min": 1.2,
+    "component_sequence": "2 -> 1 -> 2",
+    "final_classification": "labeled_scattering"
+  },
+  "gate_results": {
+    "T1_positive_axes": true,
+    "T1_gradient": true,
+    "T2_energy": true,
+    "T2_momentum": true,
+    "T2_angular": true,
+    "T2_reversal": true,
+    "T3_shape_exchange": true,
+    "T3_spin_exchange": true,
+    "T4_memory": true,
+    "T5_dynamic_force": true,
+    "T5_dynamic_shape": true,
+    "T6_topology": true,
+    "T7_scattering": true
+  },
+  "all_gates_passed": true,
+  "interpretation_boundary": "The topology threshold and memory threshold were selected during exploratory calibration. The present package is a frozen reproducible exploratory benchmark, not an independent confirmatory test."
+}

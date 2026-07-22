@@ -1,0 +1,55 @@
+{
+  "T1_shape_coordinates": {
+    "minimum_axis_in_random_positive_parameter_test": 0.34783867965388343,
+    "maximum_beta_gradient_relative_error": 1.5938046170725255e-10
+  },
+  "T2_hamilton_ledger": {
+    "relative_energy_drift": 1.8348770672350994e-15,
+    "linear_momentum_drift": 0.0,
+    "angular_momentum_drift": 2.0095036745715333e-14,
+    "time_reversal_state_error": 1.340451315594826e-13,
+    "minimum_axis_during_collision": 0.5348043134782209
+  },
+  "T3_energy_exchange": {
+    "maximum_shape_energy": 0.13890866778617897,
+    "maximum_rotational_energy": 0.3667038969663501,
+    "maximum_interaction_energy": 0.5946067982054146,
+    "maximum_spin_transfer": 0.7150702576345911
+  },
+  "T4_compression_memory": {
+    "collision_entry_time": 0.7778571428571428,
+    "collision_exit_time": 2.6807142857142856,
+    "collision_duration": 1.9028571428571428,
+    "post_collision_mean_shape_energy": 0.0016505995425531593,
+    "post_collision_shape_fraction_of_peak": 0.011882624524870647,
+    "memory_fraction_threshold": 0.005,
+    "compression_memory_duration_above_threshold": 6.319285714285714
+  },
+  "T5_dynamic_repulsion": {
+    "slow_speed": 0.65,
+    "fast_speed": 1.3,
+    "slow_peak_force": 0.8837087568162182,
+    "fast_peak_force": 2.7397659415122257,
+    "force_ratio_fast_over_slow": 3.1003041673853247,
+    "slow_peak_shape_energy": 0.09076427508681606,
+    "fast_peak_shape_energy": 0.5893347134664548,
+    "shape_energy_ratio_fast_over_slow": 6.493025068538872,
+    "slow_max_compression": 0.042187518518660025,
+    "fast_max_compression": 0.1102826463326733
+  },
+  "T6_unlabeled_topology": {
+    "threshold": 0.1,
+    "initial_connected_components": 2,
+    "minimum_connected_components": 1,
+    "final_connected_components": 2,
+    "temporary_one_component_duration": 1.4978571428571428,
+    "classification": "temporary_geometric_fusion_then_scattering",
+    "identity_reconstruction_status": "open_because_dynamics_retains_two_canonical_objects"
+  },
+  "T7_scattering": {
+    "maximum_normalized_overlap": 0.021583691848457306,
+    "final_normalized_overlap": 1.3261663282062243e-38,
+    "final_radial_velocity": 1.8085572755548012,
+    "classification": "labeled_scattering"
+  }
+}
