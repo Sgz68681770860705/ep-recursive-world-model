@@ -1,0 +1,18 @@
+{
+  "project": "EP-R0.3 Ohmic tensor and quaternion response",
+  "version": "0.1",
+  "primary_gates": {
+    "T1_projector_algebra_max_error": 1e-12,
+    "T2_minimum_power": -1e-12,
+    "T3_quaternion_norm_error": 1e-12,
+    "T4_angular_momentum_drift": 1e-10,
+    "T4_reversal_configuration_error": 1e-10,
+    "T4_reversal_velocity_error": 1e-10,
+    "T4_relative_energy_drift": 1e-10,
+    "T5_normal_stress_formula_relative_error": 1e-12,
+    "T5_isotropic_average_absolute_value": 1e-05,
+    "T6_each_parameter_relative_error": 0.01
+  },
+  "scope": "linear internal tensor/scalar/axial fields, small-angle quaternion channel, relative-rotor Hamiltonian bath",
+  "failure_rule": "Failure rejects the current R0.3 realization, not the full EP program."
+}
